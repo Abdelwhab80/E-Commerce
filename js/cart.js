@@ -22,6 +22,8 @@ function addToCart(product) {
       }
   
       addToCart(product)
+      var productAdd = productDiv.querySelector(".pricer2");
+      productAdd.style.display = "block"
     }
   })
   
