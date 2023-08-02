@@ -55,6 +55,9 @@ function createProductElement(product) {
     var productPriceValue = document.createElement("span")
     productPriceValue.classList.add("pricer")
     productPriceValue.textContent = `EGP ${product.price}`
+    var productAdd = document.createElement("p")
+    productAdd.classList.add("pricer2")
+    productAdd.innerHTML = `Item Added <img class="pricer3" src="./photos/checked.png" >`
   
     productPrice.appendChild(productPriceValue)
     productHead.appendChild(productName)
@@ -76,6 +79,7 @@ function createProductElement(product) {
     addToCartLink.innerHTML = '<i class="fa-solid fa-cart-shopping"></i> Add To Cart'
   
     productFoot.appendChild(addToCartLink)
+    productFoot.appendChild(productAdd)
   
     productDiv.appendChild(productHead)
     productDiv.appendChild(productImage)
