@@ -223,6 +223,15 @@ body, ul {
   margin: 30px auto;
   color: white;
 }
+.section1 .products .product .foot .pricer2{
+  color: #333333;
+  font-weight: 600;
+  display: none;
+}
+.section1 .products .product .foot .pricer3{
+  width: 20px;
+  height: 20px;
+}
 .section1 .contact-text {
   text-align: center;
   margin: 50px auto 20px;
