@@ -53,7 +53,7 @@ function checkLogin(){
 // location.reload("home.html")
 // location.href="home.html";
 // document.getElementById("loginId").addEventListener("click",()=>{
-    var url = 'home.html?validationResult=true'
+    var url = 'index.html?validationResult=true'
     // console.log(us)
     window.open(url,"_self");
     
